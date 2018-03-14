@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		216DA0E24BF13E5393C0C546 /* Pods_etonchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017A8318B8F8C9D763698002 /* Pods_etonchat.framework */; };
+		851752CE2047153100E5E902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851752CD2047153100E5E902 /* AppDelegate.swift */; };
+		851752D02047153100E5E902 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851752CF2047153100E5E902 /* LoginViewController.swift */; };
+		851752D32047153100E5E902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851752D12047153100E5E902 /* Main.storyboard */; };
+		851752D52047153100E5E902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851752D42047153100E5E902 /* Assets.xcassets */; };
+		851752D82047153100E5E902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851752D62047153100E5E902 /* LaunchScreen.storyboard */; };
+		851752E32047153200E5E902 /* etonchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851752E22047153200E5E902 /* etonchatTests.swift */; };
+		851752EE2047153200E5E902 /* etonchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851752ED2047153200E5E902 /* etonchatUITests.swift */; };
+		851752FC204715C100E5E902 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 851752FB204715C000E5E902 /* GoogleService-Info.plist */; };
+		8547672E204EC6C100EB8228 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8547672D204EC6C100EB8228 /* RegisterViewController.swift */; };
+		85476730204EC8D700EB8228 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8547672F204EC8D700EB8228 /* Validation.swift */; };
+		854767322050534C00EB8228 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854767312050534C00EB8228 /* ChatViewController.swift */; };
+		854767342050A58500EB8228 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854767332050A58500EB8228 /* Alert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		851752DF2047153200E5E902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 851752C22047153100E5E902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 851752C92047153100E5E902;
+			remoteInfo = etonchat;
+		};
+		851752EA2047153200E5E902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 851752C22047153100E5E902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 851752C92047153100E5E902;
+			remoteInfo = etonchat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017A8318B8F8C9D763698002 /* Pods_etonchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_etonchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC5F3B0D37131420249FE8B /* Pods-etonchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-etonchat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-etonchat/Pods-etonchat.debug.xcconfig"; sourceTree = "<group>"; };
+		851752CA2047153100E5E902 /* etonchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = etonchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		851752CD2047153100E5E902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		851752CF2047153100E5E902 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		851752D22047153100E5E902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		851752D42047153100E5E902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		851752D72047153100E5E902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		851752D92047153100E5E902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851752DE2047153200E5E902 /* etonchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = etonchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		851752E22047153200E5E902 /* etonchatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etonchatTests.swift; sourceTree = "<group>"; };
+		851752E42047153200E5E902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851752E92047153200E5E902 /* etonchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = etonchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		851752ED2047153200E5E902 /* etonchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etonchatUITests.swift; sourceTree = "<group>"; };
+		851752EF2047153200E5E902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851752FB204715C000E5E902 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8547672D204EC6C100EB8228 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8547672F204EC8D700EB8228 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		854767312050534C00EB8228 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		854767332050A58500EB8228 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		8F863434926EAA2E1826D5DE /* Pods-etonchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-etonchat.release.xcconfig"; path = "Pods/Target Support Files/Pods-etonchat/Pods-etonchat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		851752C72047153100E5E902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216DA0E24BF13E5393C0C546 /* Pods_etonchat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851752DB2047153200E5E902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851752E62047153200E5E902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AC7172679F9359FD22EED96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				017A8318B8F8C9D763698002 /* Pods_etonchat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		851752C12047153100E5E902 = {
+			isa = PBXGroup;
+			children = (
+				851752CC2047153100E5E902 /* etonchat */,
+				851752E12047153200E5E902 /* etonchatTests */,
+				851752EC2047153200E5E902 /* etonchatUITests */,
+				851752CB2047153100E5E902 /* Products */,
+				B5ADE2DA6F5CF547B5E69EFB /* Pods */,
+				4AC7172679F9359FD22EED96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		851752CB2047153100E5E902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				851752CA2047153100E5E902 /* etonchat.app */,
+				851752DE2047153200E5E902 /* etonchatTests.xctest */,
+				851752E92047153200E5E902 /* etonchatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		851752CC2047153100E5E902 /* etonchat */ = {
+			isa = PBXGroup;
+			children = (
+				854767362050A74700EB8228 /* View Controllers */,
+				854767352050A73300EB8228 /* Global Classes */,
+				851752CD2047153100E5E902 /* AppDelegate.swift */,
+				851752D12047153100E5E902 /* Main.storyboard */,
+				851752D42047153100E5E902 /* Assets.xcassets */,
+				851752D62047153100E5E902 /* LaunchScreen.storyboard */,
+				851752D92047153100E5E902 /* Info.plist */,
+				851752FB204715C000E5E902 /* GoogleService-Info.plist */,
+			);
+			path = etonchat;
+			sourceTree = "<group>";
+		};
+		851752E12047153200E5E902 /* etonchatTests */ = {
+			isa = PBXGroup;
+			children = (
+				851752E22047153200E5E902 /* etonchatTests.swift */,
+				851752E42047153200E5E902 /* Info.plist */,
+			);
+			path = etonchatTests;
+			sourceTree = "<group>";
+		};
+		851752EC2047153200E5E902 /* etonchatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				851752ED2047153200E5E902 /* etonchatUITests.swift */,
+				851752EF2047153200E5E902 /* Info.plist */,
+			);
+			path = etonchatUITests;
+			sourceTree = "<group>";
+		};
+		854767352050A73300EB8228 /* Global Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8547672F204EC8D700EB8228 /* Validation.swift */,
+				854767332050A58500EB8228 /* Alert.swift */,
+			);
+			path = "Global Classes";
+			sourceTree = "<group>";
+		};
+		854767362050A74700EB8228 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				854767312050534C00EB8228 /* ChatViewController.swift */,
+				851752CF2047153100E5E902 /* LoginViewController.swift */,
+				8547672D204EC6C100EB8228 /* RegisterViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B5ADE2DA6F5CF547B5E69EFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CC5F3B0D37131420249FE8B /* Pods-etonchat.debug.xcconfig */,
+				8F863434926EAA2E1826D5DE /* Pods-etonchat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		851752C92047153100E5E902 /* etonchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851752F22047153200E5E902 /* Build configuration list for PBXNativeTarget "etonchat" */;
+			buildPhases = (
+				DCBAF31FF1644B942F1DFEA3 /* [CP] Check Pods Manifest.lock */,
+				851752C62047153100E5E902 /* Sources */,
+				851752C72047153100E5E902 /* Frameworks */,
+				851752C82047153100E5E902 /* Resources */,
+				65FE0E18B7F676567B9112B9 /* [CP] Embed Pods Frameworks */,
+				BFA6B1DB4354F4916E7F8B50 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = etonchat;
+			productName = etonchat;
+			productReference = 851752CA2047153100E5E902 /* etonchat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		851752DD2047153200E5E902 /* etonchatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851752F52047153200E5E902 /* Build configuration list for PBXNativeTarget "etonchatTests" */;
+			buildPhases = (
+				851752DA2047153200E5E902 /* Sources */,
+				851752DB2047153200E5E902 /* Frameworks */,
+				851752DC2047153200E5E902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				851752E02047153200E5E902 /* PBXTargetDependency */,
+			);
+			name = etonchatTests;
+			productName = etonchatTests;
+			productReference = 851752DE2047153200E5E902 /* etonchatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		851752E82047153200E5E902 /* etonchatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851752F82047153200E5E902 /* Build configuration list for PBXNativeTarget "etonchatUITests" */;
+			buildPhases = (
+				851752E52047153200E5E902 /* Sources */,
+				851752E62047153200E5E902 /* Frameworks */,
+				851752E72047153200E5E902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				851752EB2047153200E5E902 /* PBXTargetDependency */,
+			);
+			name = etonchatUITests;
+			productName = etonchatUITests;
+			productReference = 851752E92047153200E5E902 /* etonchatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		851752C22047153100E5E902 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Juheb;
+				TargetAttributes = {
+					851752C92047153100E5E902 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					851752DD2047153200E5E902 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 851752C92047153100E5E902;
+					};
+					851752E82047153200E5E902 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 851752C92047153100E5E902;
+					};
+				};
+			};
+			buildConfigurationList = 851752C52047153100E5E902 /* Build configuration list for PBXProject "etonchat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 851752C12047153100E5E902;
+			productRefGroup = 851752CB2047153100E5E902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				851752C92047153100E5E902 /* etonchat */,
+				851752DD2047153200E5E902 /* etonchatTests */,
+				851752E82047153200E5E902 /* etonchatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		851752C82047153100E5E902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851752D82047153100E5E902 /* LaunchScreen.storyboard in Resources */,
+				851752FC204715C100E5E902 /* GoogleService-Info.plist in Resources */,
+				851752D52047153100E5E902 /* Assets.xcassets in Resources */,
+				851752D32047153100E5E902 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851752DC2047153200E5E902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851752E72047153200E5E902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65FE0E18B7F676567B9112B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-etonchat/Pods-etonchat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-etonchat/Pods-etonchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA6B1DB4354F4916E7F8B50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-etonchat/Pods-etonchat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCBAF31FF1644B942F1DFEA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-etonchat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		851752C62047153100E5E902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8547672E204EC6C100EB8228 /* RegisterViewController.swift in Sources */,
+				854767342050A58500EB8228 /* Alert.swift in Sources */,
+				851752D02047153100E5E902 /* LoginViewController.swift in Sources */,
+				85476730204EC8D700EB8228 /* Validation.swift in Sources */,
+				854767322050534C00EB8228 /* ChatViewController.swift in Sources */,
+				851752CE2047153100E5E902 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851752DA2047153200E5E902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851752E32047153200E5E902 /* etonchatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851752E52047153200E5E902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851752EE2047153200E5E902 /* etonchatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		851752E02047153200E5E902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 851752C92047153100E5E902 /* etonchat */;
+			targetProxy = 851752DF2047153200E5E902 /* PBXContainerItemProxy */;
+		};
+		851752EB2047153200E5E902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 851752C92047153100E5E902 /* etonchat */;
+			targetProxy = 851752EA2047153200E5E902 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		851752D12047153100E5E902 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				851752D22047153100E5E902 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		851752D62047153100E5E902 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				851752D72047153100E5E902 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		851752F02047153200E5E902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		851752F12047153200E5E902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		851752F32047153200E5E902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC5F3B0D37131420249FE8B /* Pods-etonchat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = etonchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = j.com.etonchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		851752F42047153200E5E902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F863434926EAA2E1826D5DE /* Pods-etonchat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = etonchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = j.com.etonchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		851752F62047153200E5E902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = etonchatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = j.com.etonchatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/etonchat.app/etonchat";
+			};
+			name = Debug;
+		};
+		851752F72047153200E5E902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = etonchatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = j.com.etonchatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/etonchat.app/etonchat";
+			};
+			name = Release;
+		};
+		851752F92047153200E5E902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = etonchatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = j.com.etonchatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = etonchat;
+			};
+			name = Debug;
+		};
+		851752FA2047153200E5E902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = etonchatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = j.com.etonchatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = etonchat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		851752C52047153100E5E902 /* Build configuration list for PBXProject "etonchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851752F02047153200E5E902 /* Debug */,
+				851752F12047153200E5E902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851752F22047153200E5E902 /* Build configuration list for PBXNativeTarget "etonchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851752F32047153200E5E902 /* Debug */,
+				851752F42047153200E5E902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851752F52047153200E5E902 /* Build configuration list for PBXNativeTarget "etonchatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851752F62047153200E5E902 /* Debug */,
+				851752F72047153200E5E902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851752F82047153200E5E902 /* Build configuration list for PBXNativeTarget "etonchatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851752F92047153200E5E902 /* Debug */,
+				851752FA2047153200E5E902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 851752C22047153100E5E902 /* Project object */;
+}
